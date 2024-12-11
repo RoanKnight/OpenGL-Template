@@ -21,7 +21,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # Add external libraries
-add_subdirectory("lib/glfw-3.4" "glfw-build" EXCLUDE_FROM_ALL)
+add_subdirectory("lib/glfw-master" "glfw-build" EXCLUDE_FROM_ALL)
 add_subdirectory("lib/glm-master" EXCLUDE_FROM_ALL)
 add_subdirectory("lib/bullet3-master" "bullet-build" EXCLUDE_FROM_ALL)
 
