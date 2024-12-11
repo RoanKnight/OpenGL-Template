@@ -1,0 +1,12 @@
+# Ignore build directory
+build/
+
+# Ignore binary output directory
+bin/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore executables
+*.exe
+*.out
